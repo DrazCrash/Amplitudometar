@@ -1,0 +1,43 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="98dp"
+            android:text="Record" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/record"
+            android:layout_alignBottom="@+id/record"
+            android:layout_toRightOf="@+id/record"
+            android:text="Stop" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/record"
+            android:layout_marginTop="32dp"
+            android:layout_toLeftOf="@+id/stop"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/play"
+            android:layout_alignBottom="@+id/play"
+            android:layout_toRightOf="@+id/play"
+            android:text="Show" />
+
+    </RelativeLayout>
